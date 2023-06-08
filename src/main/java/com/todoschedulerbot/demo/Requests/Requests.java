@@ -1,6 +1,7 @@
 package com.todoschedulerbot.demo.Requests;
 
 import com.google.gson.Gson;
+import io.swagger.client.model.UserEntity;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;

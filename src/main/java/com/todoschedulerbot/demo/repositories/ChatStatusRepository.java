@@ -1,6 +1,6 @@
-package com.todoschedulerbot.demo.Repositories;
+package com.todoschedulerbot.demo.repositories;
 
-import com.todoschedulerbot.demo.Entities.ChatStatusEntity;
+import com.todoschedulerbot.demo.entities.ChatStatusEntity;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

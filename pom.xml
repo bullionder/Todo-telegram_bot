@@ -115,12 +115,10 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<inputSpec>src/main/resources/api.yml</inputSpec>
+<!--							<inputSpec>src/main/resources/api.json</inputSpec>-->
+							<inputSpec>http://localhost:8080/v3/api-docs</inputSpec>
 							<language>java</language>
 							<library>resttemplate</library>
-<!--							<apiPackage>io.codejournal.maven.swagger2java</apiPackage>-->
-<!--							<modelPackage>io.codejournal.maven.swagger2java.model</modelPackage>-->
-<!--							<invokerPackage>io.codejournal.maven.swagger2java.handler</invokerPackage>-->
 							<configOptions>
 								<dateLibrary>java8</dateLibrary>-->
 								<sourceFolder>src/gen/java/main</sourceFolder>
@@ -134,5 +132,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

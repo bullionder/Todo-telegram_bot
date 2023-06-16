@@ -1,6 +1,5 @@
-package com.todoschedulerbot.demo.Bot;
+package com.todoschedulerbot.demo.bot;
 
-import com.todoschedulerbot.demo.Bot.Bot;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.event.ContextRefreshedEvent;

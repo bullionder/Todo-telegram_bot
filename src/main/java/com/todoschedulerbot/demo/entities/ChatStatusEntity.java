@@ -1,4 +1,4 @@
-package com.todoschedulerbot.demo.Entities;
+package com.todoschedulerbot.demo.entities;
 
 
 import jakarta.persistence.Entity;
